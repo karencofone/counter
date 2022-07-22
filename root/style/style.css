@@ -41,27 +41,18 @@ main section .buttons {
     padding-top: 1.5rem;
 }
 
-main section .buttons .reset {
-    margin: 0 2.5rem;
-}
-
-main section .buttons .decrease,
-main section .buttons .increase,
-main section .buttons .reset {
+main section .buttons .btn {
+    margin: 0 1rem;
     border: none;
 }
 
-main section .buttons .decrease .fa-solid,
-main section .buttons .increase .fa-solid,
-main section .buttons .reset .fa-solid {
+main section .buttons .btn .fa-solid {
     font-size: 3rem;
     background-color: rgb(22, 13, 21);
     color: rgb(222, 197, 222);
 }
 
-main section .buttons .decrease .fa-solid:hover,
-main section .buttons .increase .fa-solid:hover,
-main section .buttons .reset .fa-solid:hover {
+main section .buttons .btn .fa-solid:hover {
     color: rgb(211, 192, 62);
     cursor: pointer;
 }
